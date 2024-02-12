@@ -1,14 +1,14 @@
 {
-  "name": "tiny-store",
+  "name": "storum",
   "version": "0.0.1",
   "type": "module",
   "files": ["dist"],
-  "main": "./dist/tiny-store.umd.cjs",
-  "module": "./dist/tiny-store.js",
+  "main": "./dist/storum.umd.cjs",
+  "module": "./dist/storum.js",
   "exports": {
     ".": {
-      "require": "./dist/tiny-store.umd.cjs",
-      "import": "./dist/tiny-store.js"
+      "require": "./dist/storum.umd.cjs",
+      "import": "./dist/storum.js"
     }
   },
   "scripts": {

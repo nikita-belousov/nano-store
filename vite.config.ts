@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./src/lib/index.ts",
-      name: "tiny-store",
-      fileName: "tiny-store",
+      name: "storum",
+      fileName: "storum",
     },
     rollupOptions: {
       external: ["react", "react-dom"],
